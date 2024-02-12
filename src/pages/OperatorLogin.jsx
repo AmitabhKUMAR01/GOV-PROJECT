@@ -63,10 +63,10 @@ const OperatorLogin = () => {
             
           <label htmlFor="operatorName">Name</label>
           <input type="text" placeholder='Enter Your Name' />
-          <button onClick={sendOtp}>login</button>
+          <button onClick={sendOtp}>send OTP</button>
           <div id="recaptcha"></div>
           <input onChange={(e) => setOtp(e.target.value)} type="text" placeholder="Enter OTP" />
-          <button onClick={verifyOtp}>verify</button>
+          <button onClick={verifyOtp}>login</button>
         </div>
       </div>
       <div className="footer">
