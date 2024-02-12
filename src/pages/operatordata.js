@@ -41,6 +41,12 @@ export const operator=[
         name:'alim',
         operator_id:'alim@123',
         phone:"+919368173841"
+    },
+    {
+        id:7,
+        name:'pramod sharma',
+        operator_id:'pramod sharma@123',
+        phone:"+918252946456"
     }
 
 
