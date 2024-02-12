@@ -86,3 +86,13 @@
     text-align: end;
 
 }
+
+.six{
+    display: flex;
+    border: 3px solid red;
+    justify-content: space-around;
+    >button{
+        width: 15rem;
+        height: 3rem;
+    }
+}

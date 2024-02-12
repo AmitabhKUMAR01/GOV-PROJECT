@@ -179,7 +179,10 @@ const SynchronizeOperatorDetails = () => {
                             </div>
                         </div>
                     </div>
-
+                    <div className='six'>
+                        <button type="submit" onClick={handleSubmit}>Submit</button>
+                        <button>cancel</button>
+                    </div>
                 </div>
             </div>
         </div>
