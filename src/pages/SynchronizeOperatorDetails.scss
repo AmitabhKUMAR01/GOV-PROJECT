@@ -1,0 +1,88 @@
+.one-main,.four-main{
+    display: flex;
+    // border: 2px solid red;
+    justify-content: space-between;
+    width: 70vw;
+    flex-wrap: nowrap;
+    >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: .5rem  1rem;
+
+        >div{
+            display: flex;
+            justify-content: space-between;
+            margin: .5rem 1rem;
+            
+           
+            >input,select{
+                width: 15rem;
+                height: 2rem;
+                margin-left: 2rem;
+                border: 1px solid;
+
+            }
+            >label>span{
+                color: red;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+.three{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 70vw;        
+    margin-left: 2rem;
+    >label>span{
+        color: red;
+        font-size: 1.5rem;
+    }
+    >input{
+        width: 80%;
+        margin-right: 5rem;
+        
+        height: 2rem;
+    }
+}
+.four-main{
+   
+    >div{
+    
+
+        >div{
+            display: flex;
+            justify-content: space;
+            margin: 1rem;
+            >input,select{
+             margin-left: 5px;
+
+            }
+           
+        }
+    }
+}
+.sync-main{
+    border: 3px solid black;
+}
+.sync-body{
+    width: 100vw;
+    height: 100vh;
+    // border: 4px solid gray;
+    display: grid;
+    place-items: center;
+}
+.sync-hero{
+    // width: 100;
+    font-size: 1rem;
+}
+.sync-sub-zero{
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    width: 73vw;
+    text-align: end;
+
+}

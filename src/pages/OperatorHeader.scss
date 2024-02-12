@@ -1,0 +1,20 @@
+.operator-main-header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(179, 221, 255);
+}
+#header-adhaar{
+    width: 5rem;
+    height: 5rem;
+    
+}
+#header-oip{
+    width: 5rem ;
+    margin-right: 2rem;
+    background-color: rgb(179, 221, 255);
+    height: 5rem;
+}
