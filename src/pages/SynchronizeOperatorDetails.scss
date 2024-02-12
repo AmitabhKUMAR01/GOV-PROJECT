@@ -89,10 +89,13 @@
 
 .six{
     display: flex;
-    border: 3px solid red;
+    // border: 3px solid red;
     justify-content: space-around;
+    padding: 1rem 12rem;
     >button{
         width: 15rem;
-        height: 3rem;
+        height: 2rem;
+        
+        
     }
 }
